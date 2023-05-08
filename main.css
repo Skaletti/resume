@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "JetBrainsMono";
+    font-style: normal;
+    font-weight: 400;
+    src: local("fonts"),
+    url("/fonts/JetBrainsMono-Bold.ttf") format("truetype"),
+    url("/fonts/JetBrainsMono-BoldItalic.ttf") format("truetype");
+    url("/fonts/JetBrainsMono-Light.ttf") format("truetype");
+}
+
+/* Теперь можно использовать шрифт */
+body {
+    font-family: "JetBrainsMono", "JetBrains Mono Medium", sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 42px;
+}
+
+h2 {
+    font-family: "JetBrains Mono ExtraLight", serif;
+    font-size: 28px;
+}
+
+h3 {
+    font-family: "JetBrainsMonoNL Nerd Font Mono";
+    font-weight: 900;
+    font-size: 28px;
+}
+
+.svg-icon {
+    width: 24px;
+    margin-right: 5px;
+}
+
+
+.container {
+    display: flex;
+    width: 1240px;
+    height: 1200px;
+}
+
+.container-left {
+    width: 535px;
+}
+
+.header {
+    color: #f7f5f5;
+    background-color: #696969;
+    padding: 51px 35px;
+}
+
+.header a {
+    color: #f7f5f5;
+}
+
+main {
+    padding: 35px 0 0 25px;
+}
+
+.contacts-list {
+    padding-top: 40px;
+}
+
+.contacts-list li {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.education {
+    margin-bottom: 35px;
+}
+
+.key_skills-list * {transition: .4s linear;}
+.key_skills-list {
+    background: white;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin: 0;
+}
+.key_skills-list li {
+    border-bottom: 1px solid #efefef;
+    padding: 10px 0;
+}
+
+
+
+aside {
+    width: fit-content;
+    padding: 51px 25px;
+}
+
+.resume-description {
+    color: #828282;
+}
+
+
