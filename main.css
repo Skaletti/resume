@@ -42,7 +42,7 @@ h3 {
 }
 
 .container-left {
-    width: 535px;
+    width: 365px;
 }
 
 .header {
@@ -92,7 +92,23 @@ aside {
 }
 
 .resume-description {
+    flex-wrap: wrap;
+    text-align: justify-all;
     color: #828282;
 }
 
+.content-block {
+    margin-bottom: 25px;
+}
+.content-block span {
+    margin-left: 15px;
+}
 
+.resume-description__list {
+    color: #828282;
+    padding-left: 44px;
+}
+
+.resume-description__list-item {
+
+}
