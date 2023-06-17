@@ -30,19 +30,23 @@ h3 {
 }
 
 .svg-icon {
-    width: 24px;
+    max-width: 24px;
+    width: 100%;
     margin-right: 5px;
 }
 
 
 .container {
     display: flex;
-    width: 1240px;
+    width: 940px;
     height: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
 }
 
 .container-left {
-    width: 365px;
+    max-width: 306px;
+    width: 100%;
 }
 
 .header {
@@ -66,6 +70,7 @@ main {
 .contacts-list li {
     display: flex;
     margin-bottom: 10px;
+    align-items: center;
 }
 
 .education {
